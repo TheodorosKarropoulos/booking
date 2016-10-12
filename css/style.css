@@ -1,0 +1,138 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto/Roboto-Regular.ttf');
+}
+body
+{
+    font-family: 'Roboto';
+    margin: 0px;
+    padding: 0px;
+}
+#login-form
+{
+    margin-top: 5%;
+    border: 1px #ccc solid;
+    padding: 20px;
+}
+#top
+{
+    background: #3c8dbc;
+    height: 50px;
+}
+#top-menu-placeholder
+{
+    border: none;
+    background: transparent;
+    height: inherit;
+}
+#top-menu
+{
+    background: transparent;
+    border: none;
+}
+#brand, #nav-bar > li > a
+{
+    color: #fff;
+}
+#nav-bar > li:hover, #nav-bar > li > a:focus
+{
+    background: #367fa9;
+}
+.top-navbar-text
+{
+    margin-left: 10px;
+    font-weight: bold;
+}
+.top-navbar-dropdown
+{
+    width: 100%;
+    -webkit-animation-name: fadeAnimation;
+    -webkit-animation-duration: .7s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: ease;
+    -webkit-animation-fill-mode: forwards;
+    animation-name: fadeAnimation;
+    animation-duration: .7s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+    -moz-animation-name: fadeAnimation;
+    -moz-animation-duration: .7s;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-timing-function: ease;
+    -moz-animation-fill-mode: forward;
+}
+.user-header
+{
+    background: #3c8dbc;
+    padding: 10px;
+    text-align: center;
+    height: auto;
+}
+.user-header > p, .user-header > small
+{
+    color: #fff;
+}
+.user-footer
+{
+    padding: 10px;
+}
+.btn-flat
+{
+    border-radius: 0;
+    box-shadow: none;
+    border-width: 1px;
+}
+.user-image
+{
+    width: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+}
+#navbarCollapse
+{
+    background: #3c8dbc;
+}
+#ws-navbar-toggle
+{
+    border-color: #fff;
+}
+#ws-navbar-toggle:hover
+{
+    background: #367fa9;
+}
+#ws-icon-bar
+{
+    background: #fff;
+}
+#login-text
+{
+    margin-top: 5px;
+    padding-bottom: 5px;
+    color: #367fa9;
+    font-weight: bold;
+}
+.ws-container
+{
+    padding-top: 10px;
+}
+.ws-table
+{
+    margin-top: 30px;
+}
+.ws-table-btn
+{
+    line-height: .8;
+}
+/*
+ * Index page
+ */
+.ws-container > .jumbotron > p
+{
+    color: #3c8dbc;
+}
+.ws-video-container
+{
+    margin-top: -20px;
+}
